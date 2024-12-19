@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c51slhd3ri7e2"
-path="res://.godot/imported/TX Plant.png-235210716b3746c8c175db921d5b9106.ctex"
+uid="uid://dcauyiusy57b1"
+path="res://.godot/imported/TX Tileset Wall.png-c3f48b66a52eaa077ad20b4a7515e492.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TX Plant.png"
-dest_files=["res://.godot/imported/TX Plant.png-235210716b3746c8c175db921d5b9106.ctex"]
+source_file="res://texture/TX Tileset Wall.png"
+dest_files=["res://.godot/imported/TX Tileset Wall.png-c3f48b66a52eaa077ad20b4a7515e492.ctex"]
 
 [params]
 

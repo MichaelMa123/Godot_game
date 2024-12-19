@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://dorippqco7ysb"]
+[gd_scene load_steps=4 format=4 uid="uid://dorippqco7ysb"]
 
-[ext_resource type="Texture2D" uid="uid://2bvf0uf1g8um" path="res://new_compressed_texture_2d.tres" id="1_fwblc"]
+[ext_resource type="Texture2D" uid="uid://2bvf0uf1g8um" path="res://processed_texture/new_compressed_texture_2d.tres" id="1_fwblc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_imlvo"]
 resource_name = "grass"
@@ -46,7 +46,6 @@ texture = ExtResource("1_fwblc")
 7:4/0 = 0
 0:5/0 = 0
 1:5/0 = 0
-2:5/0 = 0
 3:5/0 = 0
 4:5/0 = 0
 5:5/0 = 0
@@ -101,14 +100,15 @@ texture = ExtResource("1_fwblc")
 4:15/0 = 0
 7:15/0 = 0
 0:0/0 = 0
+2:5/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_405ha"]
-terrain_set_0/mode = 0
-terrain_set_0/terrain_0/name = "Terrain 0"
-terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/0 = SubResource("TileSetAtlasSource_imlvo")
 
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAAAAAAACAAcAAAACAAEAAAAEAAQAAAABAAEAAAAFAAUAAAAAAAEAAAAFAAUAAAABAAAAAAAGAAQAAAACAAAAAAAHAAUAAAADAAEAAAAFAAUAAAA=")
 tile_set = SubResource("TileSet_405ha")
+
+[node name="Sprite2D" type="Sprite2D" parent="TileMapLayer"]
